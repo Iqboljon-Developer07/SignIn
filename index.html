@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="signIn">
+      <div class="signIn-info">
+        <h1>Stay Updated!</h1>
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        <div class="services">
+          <p>
+            <i class="fa-solid fa-check"></i>
+            Product discovery and building what matters
+          </p>
+          <p>
+            <i class="fa-solid fa-check"></i>
+            Measuring to ensure updates are a success
+          </p>
+          <p>
+            <i class="fa-solid fa-check"></i>
+            And much more!
+          </p>
+        </div>
+        <form id="form">
+          <div class="warning-text">
+            <label for="inputi">Email address</label>
+            <label class="none" id="warning">Valid email required</label>
+          </div>
+          <input
+            type="text"
+            id="inputi"
+            class="inputi"
+            placeholder="email@company.com"
+          />
+          <button>Subscribe to monthly newsletter</button>
+        </form>
+      </div>
+      <div class="singIn-img">
+        <img src="./images/illustration-sign-up-desktop.svg" alt="Image" />
+      </div>
+    </div>
+
+    <div class="success-layer">
+        <div class="success-layer-info">
+            <i class="fa-solid fa-check"></i>
+            <h1>Thanks for subscribing!</h1>
+            <p>
+              A confirm email has been sent to<br><b><span class="email-name"></span></b>.
+              Please open it and click the button inside to confirm you subscription.
+            </p>
+      
+            <button id="dissmiss">Dissmis message</button>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
